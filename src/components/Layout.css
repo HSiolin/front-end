@@ -1,0 +1,28 @@
+.gov-app {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.gov-main-container {
+  display: flex;
+  flex: 1;
+}
+
+.gov-main-content {
+  flex: 1;
+  padding: 30px;
+  background: #ffffff;
+  min-height: calc(100vh - 80px);
+}
+
+@media (max-width: 768px) {
+  .gov-main-container {
+    flex-direction: column;
+  }
+  
+  .gov-main-content {
+    padding: 20px;
+  }
+}
+

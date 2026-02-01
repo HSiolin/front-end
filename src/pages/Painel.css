@@ -1,0 +1,88 @@
+/* Container da tabela */
+.gov-table-container {
+  overflow-x: auto;
+  margin-top: 24px;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06); 
+  background: #fff;
+}
+
+/* Tabela base */
+.gov-table {
+  width: 100%;
+  border-collapse: separate;
+  border-spacing: 0;
+  font-size: 15px;
+}
+
+/* Cabeçalho */
+.gov-table thead {
+  background: #13593D;
+  color: #fff;
+}
+
+.gov-table thead th:first-child {
+  border-top-left-radius: 10px;
+}
+
+.gov-table thead th:last-child {
+  border-top-right-radius: 10px;
+}
+
+.gov-table th {
+  padding: 14px 16px;
+  text-align: left;
+  font-weight: 600;
+  font-size: 13px;
+  letter-spacing: 0.03em; 
+  text-transform: uppercase;
+}
+
+/* Linhas do corpo */
+.gov-table tbody tr {
+  transition: background-color 0.15s ease-in-out;
+}
+
+.gov-table tbody tr:not(:last-child) td {
+  border-bottom: 1px solid #e9ecef; 
+}
+
+.gov-table tbody tr:hover {
+  background: #f1f5f4; 
+}
+
+/* Células */
+.gov-table td {
+  padding: 14px 16px;
+  color: #495057;
+  font-size: 15px;
+  line-height: 1.4;
+  vertical-align: middle;
+}
+
+/* Estado vazio */
+.gov-table-empty {
+  text-align: center;
+  color: #6c757d;
+  font-style: italic;
+  padding: 48px 16px !important;
+}
+
+.gov-loading {
+  text-align: center;
+  padding: 48px 16px;
+  color: #6c757d;
+  font-size: 16px;
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+  .gov-table {
+    font-size: 14px;
+  }
+
+  .gov-table th,
+  .gov-table td {
+    padding: 10px 12px;
+  }
+}

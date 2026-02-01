@@ -1,0 +1,72 @@
+/* Container principal da página */
+.gov-page-container {
+  max-width: 600px;     
+  margin: 40px auto;       
+  padding: 0 20px;          
+}
+
+/* Título da página */
+.gov-page-title {
+  color: #13593D;          
+  font-size: 28px;
+  margin-bottom: 24px;      
+  font-weight: 600;
+  line-height: 1.2;         
+}
+
+/* Grupos de formulário */
+.gov-form-group {
+  margin-bottom: 18px;  
+}
+
+/* Labels dos campos */
+.gov-form-label {
+  display: block;
+  margin-bottom: 6px;
+  color: #495057;
+  font-weight: 500;
+  font-size: 14px;
+}
+
+/* Inputs do formulário */
+.gov-form-input {
+  width: 100%;
+  padding: 10px 12px;       
+  border: 1px solid #ced4da;
+  border-radius: 6px;   
+  font-size: 16px;
+  transition: border-color 0.2s, box-shadow 0.2s;
+  box-sizing: border-box;
+}
+
+.gov-form-input:focus {
+  outline: none;
+  border-color: #13593D;
+  box-shadow: 0 0 0 3px rgba(19, 89, 61, 0.15); 
+}
+
+/* Botões */
+.gov-button {
+  padding: 12px 20px;       
+  font-size: 16px;
+  font-weight: 600;
+  border: none;
+  border-radius: 6px;    
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+  width: 100%;
+  text-align: center;
+}
+
+.gov-button-primary {
+  background: #13593D;
+  color: white;
+}
+
+.gov-button-primary:hover {
+  background: #0E5930;       
+}
+
+.gov-button-primary:active {
+  background: #0a3d22;
+}
